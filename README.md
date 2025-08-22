@@ -1,4 +1,4 @@
-# 📌 Project Emotion Detector
+# Project Emotion Detector
 
 ---
 
@@ -48,7 +48,7 @@ Such emotion-aware systems are increasingly important in:
 
 * [Docker](https://www.docker.com/) – containerization of the application.
 * [Docker Compose](https://docs.docker.com/compose/) – orchestration.
-* [GitHub ]
+* [GitHub Action](https://github.com/features/actions) - CI/CD
 
 ### **Testing**
 
@@ -154,11 +154,3 @@ Dominant emotion: anger
 ```markdown
 ![Screenshot](images/screenshot1.png)
 ```
-
-* Para GIFs, faça o mesmo:
-
-```markdown
-![Demo GIF](images/demo.gif)
-```
-
-
