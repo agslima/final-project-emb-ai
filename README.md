@@ -111,7 +111,12 @@ The system response is:
 'anger': 0.85, 'disgust': 0.05, 'fear': 0.03, 'joy': 0.01, 'sadness': 0.06
 The dominant emotion is: anger
 ```
+```markdown
+![Screenshot](.files/app_img.png)
+```
+<!--**GIF Demonstration:**
 
+![GIF placeholder](https://via.placeholder.com/800x400?text=App+Interaction+GIF)-->
 ---
 
 ## 🏆 Takeaway
@@ -125,32 +130,3 @@ It serves as a strong foundation for:
 * Running analytics on customer feedback at scale.
 
 ---
-
-## 📊 Example Output
-
-**Input:**
-
-```
-I am really mad about this
-```
-
-**System Response:**
-
-```
-'anger': 0.85, 'disgust': 0.05, 'fear': 0.03, 'joy': 0.01, 'sadness': 0.06
-Dominant emotion: anger
-```
-
-**Screenshot of the Web App:**
-
-![Screenshot placeholder](https://via.placeholder.com/800x400?text=Web+App+Screenshot)
-
-<!--**GIF Demonstration:**
-
-![GIF placeholder](https://via.placeholder.com/800x400?text=App+Interaction+GIF)-->
-
----
-
-```markdown
-![Screenshot](images/screenshot1.png)
-```
