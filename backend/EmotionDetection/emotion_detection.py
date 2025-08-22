@@ -37,10 +37,10 @@ def emotion_detector(text_to_analyze):
     # If server returns 400 (bad request), return None values
     if response.status_code == 400:
         return {
-            'anger': None,
+            'anger':   None,
             'disgust': None,
-            'fear': None,
-            'joy': None,
+            'fear':    None,
+            'joy':     None,
             'sadness': None,
             'dominant_emotion': None
         }      
@@ -65,3 +65,4 @@ def emotion_detector(text_to_analyze):
     }
 
     return result
+
