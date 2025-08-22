@@ -19,10 +19,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Set up Python 3.10
+      - name: Set up Python 3.11
         uses: actions/setup-python@v4
         with:
-          python-version: 3.10  # Última versão estável para Ubuntu 22.04 é 3.10.17
+          python-version: 3.11  # Última versão estável para Ubuntu 22.04 é 3.10.17
           check-latest: true
 
       - name: Install Dependencies
