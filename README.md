@@ -111,9 +111,9 @@ The system response is:
 'anger': 0.85, 'disgust': 0.05, 'fear': 0.03, 'joy': 0.01, 'sadness': 0.06
 The dominant emotion is: anger
 ```
-```markdown
+
 ![Screenshot](.files/app_img.png)
-```
+
 <!--**GIF Demonstration:**
 
 ![GIF placeholder](https://via.placeholder.com/800x400?text=App+Interaction+GIF)-->
