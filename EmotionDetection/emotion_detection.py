@@ -4,6 +4,18 @@ import requests
 import json
 
 def emotion_detector(text_to_analyze):
+
+    # If input is blank, return None for all values
+    if not text_to_analyze.strip():
+        return {
+            'anger': None,
+            'disgust': None,
+            'fear': None,
+            'joy': None,
+            'sadness': None,
+            'dominant_emotion': None
+        }
+
     # API endpoint for Watson NLP Emotion Detection
     url = "https://sn-watson-emotion.labs.skills.network/v1/watson.runtime.nlp.v1/NlpService/EmotionPredict"
     
@@ -20,7 +32,18 @@ def emotion_detector(text_to_analyze):
     }
     
     # Send POST request
-    response = requests.post(url, headers=headers, json=input_json)   
+    response = requests.post(url, headers=headers, json=input_json)
+
+    # If server returns 400 (bad request), return None values
+    if response.status_code == 400:
+        return {
+            'anger': None,
+            'disgust': None,
+            'fear': None,
+            'joy': None,
+            'sadness': None,
+            'dominant_emotion': None
+        }      
 
     # Convert response text to dictionary
     response_dict = response.json()  # json.loads(response.text) could also be used
